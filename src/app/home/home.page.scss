@@ -1,0 +1,96 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+ion-title{
+  color: white;
+  background-color: black;
+}
+
+ion-label{
+  font-size: 10px;
+}
+
+ion-item{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column ;
+  margin: auto;
+  padding-top: 25px;
+
+}
+.center{
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  width: min-content;
+}
+
+p{
+  text-align: center;
+  margin-top: 5%;
+  color: black;
+}
+
+ion-input{
+  text-align: center;
+}
+
+ion-button{
+  
+  margin-top:2.5%;
+  display: flex;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+}
+
+ion-card{
+  display: block;
+  align-items: center;
+  margin-top: 25%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+img{
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+
